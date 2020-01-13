@@ -1,0 +1,53 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.ajaygaikwad.calender2020"
+        minSdkVersion 16
+        targetSdkVersion 28
+        versionCode 2
+        versionName "1.2"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+
+    }
+    buildTypes {
+        lintOptions {
+            checkReleaseBuilds false
+        }
+
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'com.jsibbold:zoomage:1.2.0-SNAPSHOT'
+    implementation 'com.jsibbold:zoomage:1.2.0'
+    implementation 'com.mcxiaoke.volley:library:1.0.19'
+    implementation 'ch.acra:acra:4.9.1'
+    implementation 'com.android.support:multidex:1.0.3'
+    implementation 'hari.bounceview:bounceview:0.1.0'
+    implementation 'com.google.firebase:firebase-analytics:17.2.0'
+    implementation 'com.google.firebase:firebase-messaging:20.0.0'
+
+    implementation 'com.github.vpotvin:caldroidx:1.0'
+    implementation 'android.arch.persistence.room:runtime:1.0.0'
+    annotationProcessor "android.arch.persistence.room:compiler:1.0.0"
+    implementation 'com.rom4ek:arcnavigationview:1.0.3'
+    implementation 'com.github.f0ris.sweetalert:library:1.5.1'
+
+
+}
+apply plugin: 'com.google.gms.google-services'

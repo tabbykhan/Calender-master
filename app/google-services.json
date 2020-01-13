@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "600846877459",
+    "firebase_url": "https://calender-2020-cfc71.firebaseio.com",
+    "project_id": "calender-2020-cfc71",
+    "storage_bucket": "calender-2020-cfc71.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600846877459:android:c0b36a2ce303a39ade50e6",
+        "android_client_info": {
+          "package_name": "com.ajaygaikwad.calender2020"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "600846877459-iscsioi2h6676tvg9sv8eiul0vd8nmhj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDf4Dtr5htHfhJVbAfD1XsgPvXD-A3l8_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "600846877459-iscsioi2h6676tvg9sv8eiul0vd8nmhj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

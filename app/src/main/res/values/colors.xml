@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="orange">#FF9800</color>
+    <color name="orange_faint">#FFBF60</color>
+    <color name="overlay_dark_50">#80000000</color>
+    <color name="gray">#80414040</color>
+
+    <color name="transparentWhite">#D9ffff</color>
+
+    <color name="colorLightGray">#eaeaea</color>
+    <color name="colorDarkGray">#363f50</color>
+    <color name="colorBlack">#252525</color>
+    <color name="colorPink">#fb2673</color>
+    <color name="colorRed">#ff0000</color>
+    <color name="colorGreen">#66ff66</color>
+    <color name="white">#ffff</color>
+    <color name="grey">#A9A9A9</color>
+    <color name="blue">#0091ff</color>
+    <color name="darkblue">#002440</color>
+    <color name="blackTransparent">#66000000</color>
+    <color name="colorToolbar">#f2ebf3fb</color>
+    <color name="green">#004655</color>
+    <color name="spinner">#00ffff</color>
+    <color name="sr">#159dbf</color>
+    <color name="bgsr">#ebebeb</color>
+    <color name="adapterchildbg">#34c2b7</color>
+    <color name="adapterchildtxt">#86898a</color>
+
+    <color name="treeDialogColor">#FFBB33</color>
+</resources>
